@@ -6,14 +6,20 @@ Projeto simples para buscar notícias em uma API e gerar elementos de post (kick
 
 ## 🚀 Iniciando com Poetry
 
-1. Instale as dependências:  
+1. Instale as dependências:
+    ```bash 
    poetry install
+    ```
 
 2. Ative o ambiente virtual:  
+    ```bash
    poetry shell  
+    ```
 
-   ou rode direto com:  
+   ou rode direto com:
+   ```bash  
    poetry run python -m src.news.main
+   ```
 
 ---
 
@@ -21,8 +27,10 @@ Projeto simples para buscar notícias em uma API e gerar elementos de post (kick
 
 O projeto usa variáveis de ambiente para acessar APIs externas.  
 
-1. Copie o arquivo de exemplo:  
+1. Copie o arquivo de exemplo:
+    ```bash
    cp .env.example .env
+   ```
 
 2. Preencha o `.env` com suas chaves:  
    OPENROUTER_KEY=sua_chave_aqui  
